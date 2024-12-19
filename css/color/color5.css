@@ -1,5 +1,5 @@
 .demo-section .demo-content h2,.features .feature-content i,.app-features .feature-content .single-list i,.contact-us .contact-info .single-info i,.color-plate .icon i{
-	background:linear-gradient(-45deg,#7c160d,#000000);
+	background:linear-gradient(-45deg,#000000, #7c160d);
 	background-clip: border-box;
 	background-clip: border-box;
 	-webkit-background-clip: text;
