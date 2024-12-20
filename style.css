@@ -262,7 +262,7 @@ Version:	1.0
     overflow: hidden;
     width: 100%;
     z-index: 1;
-	background-image:url('img/slider/hero-bg.jpg');
+	background-image:url('img/hero-bg.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -397,7 +397,7 @@ Version:	1.0
     overflow: hidden;
     width: 100%;
     z-index: 1;
-	background-image:url('img/slider/hero-bg.jpg');
+	background-image:url('img/hero-bg.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -715,7 +715,7 @@ Version:	1.0
     overflow: hidden;
     width: 100%;
     z-index: 1;
-	background-image:url('img/slider/hero-section-bg-4.jpg');
+	background-image:url('img/hero-section-bg-4.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -832,7 +832,7 @@ Version:	1.0
     overflow: hidden;
     width: 100%;
     z-index: 1;
-	background-image:url('img/slider/hero-section-bg-4.jpg');
+	background-image:url('img/hero-section-bg-4.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -1185,7 +1185,7 @@ Version:	1.0
     overflow: hidden;
     width: 100%;
     z-index: 1;
-	background-image:url('img/slider/hero-section-bg-4.jpg');
+	background-image:url('img/hero-section-bg-4.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -2777,7 +2777,7 @@ Version:	1.0
 	Start 404 Error CSS
 ===============================*/
 .error-page {
-	background-image: url('img/slider/download-bg.jpg');
+	background-image: url('img/download-bg.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
