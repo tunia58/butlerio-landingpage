@@ -41,7 +41,7 @@ Version:	1.0
 	Start Header CSS 
 ===============================*/
 .header{
-	background-color:#24272B;
+	background-color:#8b0000;
 }
 .header .navbar-collapse{
 	padding:0;
@@ -247,7 +247,7 @@ Version:	1.0
 	transition:all 0.4s ease;
 }
 .demo-thumb .single-thumb:hover a span{
-	color:#755ce4;
+	color:#be0000;
 }
 /*=============================
 	/End Demos CSS 
@@ -513,11 +513,11 @@ Version:	1.0
     border-radius: 30px 0 0 30px;
 }
 .section-hero2 .phone-carousel .owl-theme .owl-nav button:hover{
-    background: #281483;
+    background: #720000;
 }
 .section-hero2 .phone-carousel .owl-theme .owl-nav button:focus, .phone-carousel .owl-theme .owl-nav button:active{
     outline: none;
-    background: #281483;
+    background: #720000;
     color: #fff;
     border: none;
 }
@@ -579,16 +579,16 @@ Version:	1.0
 	border-radius: 2px;
 }
 .section-hero2 .slider-indicator ul li:focus,.slider-indicator ul li:hover{
-    color:#281483;
+    color:#580000;
 }
 .section-hero2 .indicator-color ul li{
     background: #f9f9f9;
-    color: #281483;
+    color: #580000;
     border-radius: 2px;
 }
 .section-hero2 .indicator-color ul li:hover{
     color: #fff;
-    background: #281483;
+    background: #580000;
 }
 .section-hero2 .phone-carousel .phone .header-slider:before{
     background: rgba(0, 0, 0, 0) url(../img/mockup_top.png) no-repeat scroll center center / cover;
@@ -1051,7 +1051,7 @@ Version:	1.0
 	line-height: 60px;
 	border-radius: 100%;
 	background: #fff;
-	color: #755ce4;
+	color: #be0000;
 	font-size: 20px;
 	position: absolute;
 	-webkit-transition: all 0.4s ease;
@@ -1061,7 +1061,7 @@ Version:	1.0
 	font-size: 15px;
 }
 .watch-video .video-play a:hover{
-	background:#755ce4;
+	background:#be0000;
 	color:#fff;
 }
 .watch-video .video-main .waves-block .waves {
@@ -1466,7 +1466,7 @@ Version:	1.0
 .testimonials .single-testimonial .name span{
 	display:block;
 	font-size:14px;
-	color:#755ce4;
+	color:#be0000;
 	font-weight:400;
 	margin-top:5px;
 	text-transform:capitalize;
@@ -1720,13 +1720,13 @@ Version:	1.0
     font-size: 16px;
 }
 .product-counter-section .counter-list li:nth-child(3n+1) .count {
-    color: #E166A5;
+    color: #8b0000;
 }
 .product-counter-section .counter-list li:nth-child(3n+2) .count {
-    color: #B162C1;
+    color: #3f0000;
 }
 .product-counter-section .counter-list li:nth-child(3n+3) .count {
-    color: #745CE5;
+    color: #000000;
 }
 /*=============================
 	/End Counter CSS
@@ -1802,7 +1802,7 @@ Version:	1.0
 .pricing-table .single-table .amount {
 	font-size: 35px;
 	font-weight: 400;
-	color: #755ce4;
+	color: #be0000;
 	margin-bottom: 15px;
 	background: linear-gradient(45deg,#8b0000,#000000);
     background-clip: border-box;
@@ -2003,7 +2003,7 @@ Version:	1.0
 	color:#2C2D3F;
 }
 .blog .single-news .news-body h2 a:hover{
-	color:#755ce4;
+	color:#be0000;
 }
 .blog .single-news .news-content p{
 	font-weight:400;
@@ -2106,7 +2106,7 @@ Version:	1.0
 }
 .pagination .pagination-list li.active a,
 .pagination .pagination-list li:hover a{
-	background: #755ce4;
+	background: #be0000;
 	color: #fff;
 }
 .pagination .pagination-list li a i{
@@ -2197,7 +2197,7 @@ Version:	1.0
 	color: #333;
 }
 .blog-sidebar .categor-list li a:hover{
-	color:#755ce4;
+	color:#be0000;
 }
 /* Recent Post */
 .blog-sidebar .recent-post{}
@@ -2251,7 +2251,7 @@ Version:	1.0
 	display: block;
 }
 .blog-sidebar .single-post .content h5 a:hover{
-	color:#755ce4;
+	color:#be0000;
 }
 /* Blog Tags */
 .blog-sidebar .side-tags{}
@@ -2326,10 +2326,10 @@ Version:	1.0
 }
 .blog-single .blog-meta span a i {
 	margin-right: 10px;
-	color: #755ce4;
+	color: #be0000;
 }
 .blog-single .blog-meta span a:hover{
-	color:#755ce4;
+	color:#be0000;
 }
 .blog-single .content p {
 	margin-bottom: 25px;
@@ -2399,7 +2399,7 @@ Version:	1.0
 }
 .blog-single .share-social .content-tags .tag-inner li a:hover{
 	color:#fff;
-	background:#755ce4;
+	background:#be0000;
 }
 .blog-single .share-social .share-inner ul{
 	float:right;
@@ -2500,7 +2500,7 @@ Version:	1.0
 	font-weight: 400;
 	float: right;
 	background: #33333312;
-	color: #755ce4;
+	color: #be0000;
 	padding: 5px 12px;
 	border-radius: 3px;
 	text-transform: capitalize;
@@ -2508,7 +2508,7 @@ Version:	1.0
 	margin-top: -42px;
 }
 .blog-single .single-comment .content a:hover{
-	background:#755ce4;
+	background:#be0000;
 	color:#fff;
 }
 /* Comment Form */
@@ -2601,7 +2601,7 @@ Version:	1.0
 	margin-bottom:0px;
 }
 .footer-address ul li a:hover{
-	color:#755ce4;
+	color:#be0000;
 }
 .footer-address ul li i{
     margin-right: 5px;
@@ -2628,7 +2628,7 @@ Version:	1.0
 	height:150px;
 }
 .contact-us-form .form-group .form-control:focus{
-    border-color: #755ce4;
+    border-color: #be0000;
 }
 /* Mail Success */
 .mail-success .mail-inner {
@@ -2824,7 +2824,7 @@ Version:	1.0
 	margin-right:15px;
 	border-radius:30px;
 	background:#fff;
-	color:#755ce4;
+	color:#be0000;
 	font-weight:600;
 }
 .error-page .button .btn:hover{
