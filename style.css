@@ -41,7 +41,7 @@ Version:	1.0
 	Start Header CSS 
 ===============================*/
 .header{
-	background-color:#8b0000;
+	background-color:transparent;
 }
 .header .navbar-collapse{
 	padding:0;
