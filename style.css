@@ -41,7 +41,7 @@ Version:	1.0
 	Start Header CSS 
 ===============================*/
 .header{
-	background-color:linear-gradient(45deg,#8b0000,#000000)
+	background-color:#8b0000;
 }
 .header .navbar-collapse{
 	padding:0;
