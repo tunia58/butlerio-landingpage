@@ -42,15 +42,12 @@ Version:	1.0
 ===============================*/
 .header{
 	background-color:#8b0000;
-	padding-bottom: 20px; /* Fügt zusätzlichen Abstand unterhalb des Headers hinzu */
-	min-height: 80px; /* Sorgt dafür, dass der Header mindestens 80px hoch ist */
 }
 .header .navbar-collapse{
 	padding:0;
 }
 .header .logo {
 	margin-top: 20px;
-	padding-bottom: 10px; /* Zusätzlicher Abstand unter dem Logo */
 }
 .header .logo img{
 	
