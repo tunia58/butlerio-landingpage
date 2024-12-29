@@ -1,3 +1,17 @@
+/*
+Dieser Code enthält eine Vielzahl von Media Queries, die speziell für zwei unterschiedliche Bildschirmgrößen geschrieben wurden:
+
+Bildschirmbreite zwischen 768px und 991px
+
+Enthält Layout-Anpassungen für Tablets und mittlere Geräte.
+Passt Abstände, Schriftgrößen, Polsterungen und andere UI-Elemente an, um die Darstellung auf mittelgroßen Bildschirmen zu optimieren.
+Bildschirmbreite bis maximal 767px
+
+Enthält Layout-Anpassungen für Smartphones und kleine Geräte.
+Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrößen, inklusive Änderungen bei Schriftgrößen, Abständen, Menüdarstellung und Bildpositionierungen.*/
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-title {
         padding: 0px;
