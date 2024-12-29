@@ -1,4 +1,12 @@
 /* =====================================
+
+Dieser Code fügt viele interaktive und visuelle Effekte hinzu, die auf modernen Landing-Pages üblich sind:
+
+Responsives Design: Unterstützt mobile Geräte mit slicknav und Owl Carousel.
+Parallax und Animationen: Nutzt Stellar.js und Wow.js.
+Medienintegration: Unterstützt Popups für Bilder und Videos.
+Benutzerfreundlichkeit: Bietet Funktionen wie Scroll-Up-Button und sanftes Scrollen.
+
 Template Name: 	Appland
 Author Name: Naimur Rahman
 Author Url: www.themebazzar.com
