@@ -48,7 +48,6 @@ Version:	1.0
 ===============================*/
 .header{
 	background-color:#8b0000;
-	 padding-top: 60px;
 }
 .header .navbar-collapse{
 	padding:0;
@@ -64,6 +63,7 @@ Version:	1.0
 .header .main-menu.sticky{
 	z-index:99999;
 	box-shadow: 0px 0px 7px #0000003b;
+	   padding-top: 20px;
 }
 .header .main-menu {
 	background:transparent;
