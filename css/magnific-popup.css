@@ -1,4 +1,12 @@
-/* Magnific Popup CSS */
+/* Magnific Popup CSS
+
+Diese Datei wird genutzt, um das Styling und Verhalten von Popups im Magnific Popup Plugin zu steuern. Sie können:
+
+Den Hintergrund (z. B. Farbe oder Transparenz) anpassen.
+Die Position und das Design des Schließen-Buttons ändern.
+Die Größe und das Verhalten von Bildern oder Videos in den Popups beeinflussen.
+
+*/
 .mfp-bg {
     top: 0;
     left: 0;
