@@ -152,6 +152,7 @@ Version:	1.0
 	top: 0;
 	animation: fadeInDown 0.8s both 0s;
 	background:linear-gradient(45deg,#8b0000,#000000);
+	padding: 20px 0; /* Erhöht den Platz oben und unten */
 }
 /*=============================
 	/ End Header CSS 
