@@ -48,6 +48,7 @@ Version:	1.0
 ===============================*/
 .header{
 	background-color:#8b0000;
+	 padding-top: 20px;
 }
 .header .navbar-collapse{
 	padding:0;
