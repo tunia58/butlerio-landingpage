@@ -285,7 +285,7 @@ Version:	1.0
 	position:absolute;
 	content:"";
 	left:0;
-	bottom:-50px;
+	bottom:-100px;
 	background-image:url('img/shape.png');
 	background-size:cover;
 	background-position:center;
