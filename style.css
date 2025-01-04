@@ -1176,6 +1176,12 @@ Version:	1.0
 .screen-carousel.owl-carousel .owl-nav .owl-prev {
     margin-right:5px;
 }
+
+.screen-carousel.owl-carousel .owl-nav button img {
+    width: 60%; /* Größe des Icons relativ zum Kreis */
+    height: auto;
+}
+
 .screen-carousel.owl-carousel .owl-item.active:first-child img {
     border-radius: 30px
 }
