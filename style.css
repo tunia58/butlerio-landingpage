@@ -1178,8 +1178,9 @@ Version:	1.0
 }
 
 .screen-carousel.owl-carousel .owl-nav button img {
-    width: 60%; /* Größe des Icons relativ zum Kreis */
-    height: auto;
+     width: 20px; /* Größe des Icons */
+   height: 20px; /* Größe des Icons */
+   display: inline-block;
 }
 
 .screen-carousel.owl-carousel .owl-item.active:first-child img {
