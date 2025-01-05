@@ -1151,6 +1151,7 @@ Version:	1.0
 	right: 50%;
 	margin-right: -145px;
 }
+
 .screen-carousel.owl-carousel img {
     max-width: 255px
 }
@@ -1161,36 +1162,21 @@ Version:	1.0
 	margin-top: 61px;
 }
 .screen-carousel.owl-carousel .owl-nav button {
-  height: 50px; /* Kreisgröße */
-  width: 50px;  /* Kreisgröße */
-  line-height: 50px;
-  text-align: center;
-  border-radius: 50%; /* Macht es zu einem Kreis */
-  background: linear-gradient(45deg, #8b0000, #000000);
-  color: #fff;
-  display: flex;
-  justify-content: center; /* Zentriert das Icon im Kreis */
-  align-items: center;    /* Zentriert das Icon im Kreis */
-  transition: all 0.4s ease;
-  border: none;
-  cursor: pointer;
-  margin: 0 5px; /* Abstand zwischen den Buttons */
+   height:40px;
+   width:40px;
+   line-height:40px;
+   text-align:center;
+   border-radius:100%;
+   background:linear-gradient(45deg,#F1689C,#6E5BE8);
+   color: #fff;
+   display:inline-block;
+   -webkit-transition:all 0.4s ease;
+   -moz-transition:all 0.4s ease;
+   transition:all 0.4s ease;
 }
 .screen-carousel.owl-carousel .owl-nav .owl-prev {
     margin-right:5px;
 }
-
-.screen-carousel.owl-carousel .owl-nav button:hover {
-    background: linear-gradient(45deg, #b30000, #4d0000); /* Hover-Farbe */
-}
-
-
-.screen-carousel.owl-carousel .owl-nav button img {
-    width: 24px; /* Größe des Icons anpassen */
-    height: 24px; /* Höhe des Icons anpassen */
-    object-fit: contain; /* Verhindert Verzerrung */
-}
-
 .screen-carousel.owl-carousel .owl-item.active:first-child img {
     border-radius: 30px
 }
