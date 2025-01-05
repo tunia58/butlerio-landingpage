@@ -1161,16 +1161,20 @@ Version:	1.0
 	margin-top: 61px;
 }
 .screen-carousel.owl-carousel .owl-nav button {
-   height: 50px; /* Größe des Kreises */
-    width: 50px; /* Größe des Kreises */
-    display: flex; /* Flexbox aktivieren */
-    justify-content: center; /* Horizontal zentrieren */
-    align-items: center; /* Vertikal zentrieren */
-    border-radius: 50%; /* Kreisform */
-    background: linear-gradient(45deg, #8b0000, #000000); /* Farbverlauf */
-    transition: all 0.4s ease; /* Smooth Animation */
-    border: none; /* Entfernt Standardrand */
-    cursor: pointer;
+  height: 50px; /* Kreisgröße */
+  width: 50px;  /* Kreisgröße */
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%; /* Macht es zu einem Kreis */
+  background: linear-gradient(45deg, #8b0000, #000000);
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Zentriert das Icon im Kreis */
+  align-items: center;    /* Zentriert das Icon im Kreis */
+  transition: all 0.4s ease;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px; /* Abstand zwischen den Buttons */
 }
 .screen-carousel.owl-carousel .owl-nav .owl-prev {
     margin-right:5px;
