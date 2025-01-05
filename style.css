@@ -1161,27 +1161,30 @@ Version:	1.0
 	margin-top: 61px;
 }
 .screen-carousel.owl-carousel .owl-nav button {
-   height:40px;
-   width:40px;
-   line-height:40px;
-   text-align:center;
-   border-radius:100%;
-   background:linear-gradient(45deg,#8b0000,#000000);
-   color: #fff;
-   display:flex;
-   -webkit-transition:all 0.4s ease;
-   -moz-transition:all 0.4s ease;
-   transition:all 0.4s ease;
+   height: 50px; /* Größe des Kreises */
+    width: 50px; /* Größe des Kreises */
+    display: flex; /* Flexbox aktivieren */
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /* Vertikal zentrieren */
+    border-radius: 50%; /* Kreisform */
+    background: linear-gradient(45deg, #8b0000, #000000); /* Farbverlauf */
+    transition: all 0.4s ease; /* Smooth Animation */
+    border: none; /* Entfernt Standardrand */
+    cursor: pointer;
 }
 .screen-carousel.owl-carousel .owl-nav .owl-prev {
     margin-right:5px;
 }
 
+.screen-carousel.owl-carousel .owl-nav button:hover {
+    background: linear-gradient(45deg, #b30000, #4d0000); /* Hover-Farbe */
+}
+
+
 .screen-carousel.owl-carousel .owl-nav button img {
-width: 60%; /* Größe des Icons relativ zum Kreis */
-   height: auto; /* Automatische Skalierung */
-   display: inline-block; /* Sicherstellen, dass das Icon angezeigt wird */
-   object-fit: contain; /* Verhindern von Verzerrungen */
+    width: 24px; /* Größe des Icons anpassen */
+    height: 24px; /* Höhe des Icons anpassen */
+    object-fit: contain; /* Verhindert Verzerrung */
 }
 
 .screen-carousel.owl-carousel .owl-item.active:first-child img {
