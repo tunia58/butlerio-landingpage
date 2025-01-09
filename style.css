@@ -1909,7 +1909,7 @@ Version:	1.0
     top: 50%;
     right: 10px;
     position: absolute;
-    background: url('img/plus-icon.svg') no-repeat center center;
+    background: url('img/minus-icon.svg') no-repeat center center;
     background-size: cover;
     width: 16px; /* Icon-Breite */
     height: 16px; /* Icon-Höhe */
@@ -1927,7 +1927,7 @@ Version:	1.0
 }
 .faq-area .faq-title a.collapsed::before {
     content: "";
-    background: url('img/minus-icon.svg') no-repeat center center;
+    background: url('img/plus-icon.svg') no-repeat center center;
     background-size: cover;
 }
 .faq-area .faq-body {
