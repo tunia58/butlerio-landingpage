@@ -1905,20 +1905,15 @@ Version:	1.0
 	border-radius: 0px;
 }
 .faq-area .faq-title a::before {
-	content:"\f068";
-	font-family: "Font Awesome 5 Free";
-	top: 50%;
-	margin-top: -15px;
-	right: 10px;
-	position: absolute;
-	background: transparent;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	color: #fff;
-	border-radius: 0px;
-	text-align: center;
-	font-size: 14px;
+    content: "";
+    top: 50%;
+    right: 10px;
+    position: absolute;
+    background: url('img/plus-icon.svg') no-repeat center center;
+    background-size: cover;
+    width: 16px; /* Icon-Breite */
+    height: 16px; /* Icon-Höhe */
+    transform: translateY(-50%);
 }
 .faq-area .panel .faq-title a {
 	text-decoration: none;
@@ -1931,12 +1926,9 @@ Version:	1.0
 	border-color: transparent;
 }
 .faq-area .faq-title a.collapsed::before {
-	content:"\f067";
-	font-family: "Font Awesome 5 Free";
-	color: #666;
-	background:transparent;
-	transition:all 0.4s ease;
-	font-size: 14px;
+    content: "";
+    background: url('img/minus-icon.svg') no-repeat center center;
+    background-size: cover;
 }
 .faq-area .faq-body {
 	padding:20px;
