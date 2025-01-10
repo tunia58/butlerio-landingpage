@@ -1906,7 +1906,7 @@ Version:	1.0
 }
 .faq-area .faq-title a::before {
     content: "";
-    background: url('img/plus-icon.svg') no-repeat center center;
+    background: url('img/minus-icon.svg') no-repeat center center;
     background-size: cover;
     width: 16px;
     height: 16px;
@@ -1927,7 +1927,7 @@ Version:	1.0
 }
 .faq-area .faq-title a.collapsed::before {
     content: "";
-    background: url('img/minus-icon.svg') no-repeat center center;
+    background: url('img/plus-icon.svg') no-repeat center center;
     background-size: cover;
 }
 .faq-area .faq-body {
