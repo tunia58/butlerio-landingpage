@@ -193,20 +193,10 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
     
     }
     @media only screen and (max-width: 767px){
-    .logo {
-        display: flex;
-        justify-content: center; /* Zentriert das Logo horizontal */
-        align-items: center; /* Zentriert es vertikal */
-    }
-
     .logo img {
-        max-width: 140px; /* Mache es etwas größer */
-        height: auto;
-    }
-    .header .main-menu {
-        display: flex;
-        justify-content: space-between; /* Abstand zwischen Logo und Menübutton */
-        align-items: center; /* Vertikale Ausrichtung */
+        max-width: 180px; /* Passe die Breite an */
+        height: auto; /* Behalte das Seitenverhältnis bei */
+        margin-top: 10px; /* Optional: Abstand von oben anpassen */
     }
     .section-title {
         padding: 0px;
