@@ -203,6 +203,11 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         max-width: 140px; /* Mache es etwas größer */
         height: auto;
     }
+    .header .main-menu {
+        display: flex;
+        justify-content: space-between; /* Abstand zwischen Logo und Menübutton */
+        align-items: center; /* Vertikale Ausrichtung */
+    }
     .section-title {
         padding: 0px;
     }
