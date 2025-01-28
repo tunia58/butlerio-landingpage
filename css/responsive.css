@@ -228,9 +228,11 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         padding: 0px 10px;
     }
     .header .main-menu {
-        display: block;
-        position: relative;
-        background:linear-gradient(45deg,#8b0000,#000000);
+        display: flex; /* Aktiviert Flexbox für Zentrierung */
+        justify-content: space-between; /* Verteilt Logo und Hamburger-Menü */
+        align-items: center; /* Zentriert Elemente vertikal */
+        background: linear-gradient(45deg, #8b0000, #000000); /* Hintergrund bleibt gleich */
+        padding: 10px 20px; /* Fügt etwas Innenabstand hinzu */
     }
     /* Sticky */
     .header .sticky {
