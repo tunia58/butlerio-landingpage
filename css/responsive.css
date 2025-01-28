@@ -256,6 +256,7 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         padding-bottom: 22px;
         display: flex;
         align-items: center;
+        margin-left: auto;
     }
     .header .slicknav_btn {
        background: #fff;
