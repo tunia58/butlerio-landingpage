@@ -194,9 +194,9 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
     }
     @media only screen and (max-width: 767px){
     .logo img {
-        max-width: 200px; /* Passe die Breite an */
+        max-width: 220px; /* Passe die Breite an */
         height: auto; /* Behalte das Seitenverhältnis bei */
-        margin-top: 10px; /* Optional: Abstand von oben anpassen */
+        margin-top: 15px; /* Optional: Abstand von oben anpassen */
     }
     .section-title {
         padding: 0px;
