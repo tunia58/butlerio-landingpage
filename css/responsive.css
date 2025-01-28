@@ -193,10 +193,28 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
     
     }
     @media only screen and (max-width: 767px){
-     .logo img {
-        max-width: 300px;
+   .header .main-menu {
+        display: flex;
+        justify-content: space-between; /* Zwischenräume ausgleichen */
+        align-items: center; /* Vertikale Zentrierung */
+        padding: 10px 20px; /* Innenabstände anpassen */
+    }
+
+    .logo {
+        margin-left: auto; /* Zentrierung für Logo */
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav {
+        margin-right: 0; /* Menü-Button rechts platzieren */
+    }
+
+    .logo img {
+        max-width: 150px; /* Größe des Logos */
         height: auto;
-        margin-top: 10px;
     }
     .section-title {
         padding: 0px;
@@ -226,11 +244,6 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
     }
     .breadcrumbs .bread-inner {
         padding: 0px 10px;
-    }
-    .header .main-menu {
-        display: block;
-        position: relative;
-        background:linear-gradient(45deg,#8b0000,#000000);
     }
     /* Sticky */
     .header .sticky {
