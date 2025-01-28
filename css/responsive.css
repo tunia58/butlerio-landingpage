@@ -193,13 +193,10 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
     
     }
     @media only screen and (max-width: 767px){
-    .logo {
-    display: block;
-    flex: 1; /* Logo nimmt Platz ein */
-    }
-    .logo img {
-    max-width: 140px; /* Größe des Logos */
-    height: auto;
+     .logo img {
+        max-width: 230px;
+        height: auto;
+        margin-top: 10px;
     }
     .section-title {
         padding: 0px;
@@ -231,11 +228,9 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         padding: 0px 10px;
     }
     .header .main-menu {
-        display: flex; /* Flexbox aktivieren */
-        justify-content: space-between; /* Logo links, Menü rechts */
-        align-items: center; /* Vertikale Zentrierung */
-        background: linear-gradient(45deg, #8b0000, #000000); /* Hintergrund bleibt gleich */
-        padding: 10px 20px; /* Innenabstand für besseren Abstand */
+        display: block;
+        position: relative;
+        background:linear-gradient(45deg,#8b0000,#000000);
     }
     /* Sticky */
     .header .sticky {
