@@ -254,15 +254,14 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         background: transparent;
         padding: 0;
         padding-bottom: 22px;
+        display: flex;
+        align-items: center;
     }
     .header .slicknav_btn {
-          background: #fff;
+       background: #fff;
         color: #be0000;
         padding: 8px 9px;
-        position: absolute;
-        top: 50%;
-        right: 20px; /* Stellt sicher, dass es rechts bleibt */
-        transform: translateY(-50%); /* Zentriert es vertikal */
+        margin: -31px 0px 0 0px;
         border: none;
         border-radius: 0px;
         text-shadow: none;
