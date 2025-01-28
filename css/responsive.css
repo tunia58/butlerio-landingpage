@@ -193,10 +193,13 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
     
     }
     @media only screen and (max-width: 767px){
+    .logo {
+    display: block;
+    flex: 1; /* Logo nimmt Platz ein */
+    }
     .logo img {
-        max-width: 220px; /* Passe die Breite an */
-        height: auto; /* Behalte das Seitenverhältnis bei */
-        margin-top: 15px; /* Optional: Abstand von oben anpassen */
+    max-width: 140px; /* Größe des Logos */
+    height: auto;
     }
     .section-title {
         padding: 0px;
@@ -228,11 +231,11 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         padding: 0px 10px;
     }
     .header .main-menu {
-        display: flex; /* Aktiviert Flexbox für Zentrierung */
-        justify-content: space-between; /* Verteilt Logo und Hamburger-Menü */
-        align-items: center; /* Zentriert Elemente vertikal */
+        display: flex; /* Flexbox aktivieren */
+        justify-content: space-between; /* Logo links, Menü rechts */
+        align-items: center; /* Vertikale Zentrierung */
         background: linear-gradient(45deg, #8b0000, #000000); /* Hintergrund bleibt gleich */
-        padding: 10px 20px; /* Fügt etwas Innenabstand hinzu */
+        padding: 10px 20px; /* Innenabstand für besseren Abstand */
     }
     /* Sticky */
     .header .sticky {
