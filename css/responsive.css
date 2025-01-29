@@ -264,7 +264,7 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         border-radius: 0px;
         text-shadow: none;
         position: relative; /* Falls nötig */
-        top: -20px; /* Verschiebt den Button leicht nach oben */
+        top: -30px; /* Verschiebt den Button leicht nach oben */
     }
     .header .drop-down .slicknav_nav .slicknav_arrow {
         display: block;
