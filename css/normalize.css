@@ -294,6 +294,17 @@ Diese CSS-Datei kombiniert Normalize.css für eine einheitliche Browserdarstellu
       line-height: 42px;
       padding: 0;
   }
+   #scrollUp::before {
+      content: "";
+      background: url('img/left-icon.svg') no-repeat center center;
+      background-size: contain;
+      position: absolute;
+      width: 60%;
+      height: 60%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
   #scrollUp:hover{
       background:linear-gradient(45deg,#8b0000,#000000);
       color:#fff;
