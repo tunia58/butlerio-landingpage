@@ -357,10 +357,8 @@ Fokus liegt auf einer klaren und lesbaren Darstellung bei kleinen Bildschirmgrö
         margin-bottom: 30px;
         color: #fff;
     }
-    .hero-section1 .hero-image{
-        display: block;
-        margin: 0 auto;
-        text-align: center;
+    hero-section1 .hero-image{
+        display:none;
     }
     .mobile-slider-area{
         display:none;
